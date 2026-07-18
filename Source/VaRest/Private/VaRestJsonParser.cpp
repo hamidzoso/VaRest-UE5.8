@@ -1017,7 +1017,6 @@ bool FJSONWriter::GetStartChar(const TSharedPtr<FJsonValue>& JsonValue, FString&
 		break;
 	default:
 		return false;
-		break;
 	}
 
 	return true;
@@ -1038,7 +1037,6 @@ bool FJSONWriter::GetEndChar(const TSharedPtr<FJsonValue>& JsonValue, FString& S
 		break;
 	default:
 		return false;
-		break;
 	}
 
 	return true;
