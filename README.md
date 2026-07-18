@@ -11,7 +11,6 @@ This version fixes multiple C++ compilation errors related to deprecated APIs an
 * **TSharedString Fixes:** Updated `UE::TSharedString` implementations to correctly resolve compilation crashes (C2440/C2039) by adapting to the updated underlying string and type safety constraints.
 * **Array Memory Management:** Fixed calls to `TArray::Pop` and `RemoveAt` by replacing deprecated boolean parameters with the new `EAllowShrinking` enum constraints required by UE 5.8.
 * **FJsonObject / TMap Interoperability:** Refactored object fields and map structures to align with the stricter type constraints and reference handling in the latest engine codebase.
-* **Config Cleanups:** Removed legacy console variable bindings (such as deprecated mobile virtual texture variables) that cause runtime `Ensure` crashes in the UE 5.8 Console Manager.
 
 ## 🚀 Installation
 
